@@ -1,0 +1,81 @@
+
+# Site settings
+title: Artificial Intelligence and Statistics Conference
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  This is the website of the AISTATS conference.
+baseurl: "/aistats2007" # the subpath of your site, e.g. /blog/
+url: "http://www.aistats.org" # the base hostname & protocol for your site
+#twitter_username: aistat
+github_username:  aistats
+author:
+  name: AISTATS
+  email: aistats09@gmail.com
+comments: false
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: aistats
+
+ghub:
+  edit: true
+  repository: aistats2007
+
+banner: resort.jpg
+
+# Build settings
+markdown: kramdown
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  image: main.jpg
+  hide_tentative: true
+  proceedings:
+    url: http://proceedings.mlr.press/v2/
+    show: true
+  room: Room
+  venue: Caribe Hilton Hotel
+  venue_url: http://www.hiltoncaribbean.com/sanjuan/
+  location: San Juan, Puerto Rico
+  full_name: Artificial Intelligence and Statistics
+  short_name: AISTATS
+  name: Artificial Intelligence and Statistics
+  year: 2007
+  instance: 11th
+  styling: International Conference on
+  dates:
+  - 2007-03-21
+  - 2007-03-24
+  chairs:
+  - type: Program Chairs
+    people:
+    - family: Meila
+      given: Marina
+      institute: University of Washington
+      url: http://www.stat.washington.edu/mmp/
+    - family: Shen
+      given: Xiaotong
+      institute: University of Washington
+      url: http://www.ics.uci.edu/~welling
+  - type: Fundraising Chair
+    people:
+    - family: Sutton
+      given: Charles
+      institute: University of Edinburgh
+  - type: Publicity Chair
+    people:
+    - family: Ihler
+      given: Alexander
+      institute: University of California, Irvine
+  - type: Publications Chair
+    people:
+    - family: Alvarez
+      given: Mauricio
+      institute: University of Manchester
+
+# change encoding for the generated output files to utf-8
+encoding: utf-8
+
+
