@@ -34,7 +34,7 @@ conference:
   proceedings:
     url: http://proceedings.mlr.press/v2/
     show: true
-  room: Room
+  room: 
   venue: Caribe Hilton Hotel
   venue_url: http://www.hiltoncaribbean.com/sanjuan/
   location: San Juan, Puerto Rico
