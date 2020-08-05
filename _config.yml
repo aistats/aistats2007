@@ -57,7 +57,7 @@ conference:
     - family: Shen
       given: Xiaotong
       institute: University of Washington
-      url: http://www.ics.uci.edu/~welling
+      url:
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
