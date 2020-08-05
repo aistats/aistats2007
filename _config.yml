@@ -1,7 +1,6 @@
 
 # Site settings
 title: Artificial Intelligence and Statistics Conference
-email: 
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS conference.
 baseurl: "/aistats2007" # the subpath of your site, e.g. /blog/
@@ -10,7 +9,7 @@ url: "http://www.aistats.org" # the base hostname & protocol for your site
 github_username:  aistats
 author:
   name: AISTATS
-  email: aistats09@gmail.com
+  email:
 comments: false
 plugins:
 - jekyll-feed
@@ -59,22 +58,6 @@ conference:
       given: Xiaotong
       institute: University of Washington
       url: http://www.ics.uci.edu/~welling
-  - type: Fundraising Chair
-    people:
-    - family: Sutton
-      given: Charles
-      institute: University of Edinburgh
-  - type: Publicity Chair
-    people:
-    - family: Ihler
-      given: Alexander
-      institute: University of California, Irvine
-  - type: Publications Chair
-    people:
-    - family: Alvarez
-      given: Mauricio
-      institute: University of Manchester
-
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
