@@ -56,7 +56,7 @@ conference:
       url: http://www.stat.washington.edu/mmp/
     - family: Shen
       given: Xiaotong
-      institute: University of Minesota
+      institute: University of Minnesota
       url: http://users.stat.umn.edu/~xshen/
 # change encoding for the generated output files to utf-8
 encoding: utf-8
